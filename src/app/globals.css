@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.sectionSelect {
+  @apply after:content-['_<'] before:content-['>_'] text-red-700 dark:text-lime-500
+}
+
+.sectionLink {
+  @apply transition-all duration-300 p-3 hover:text-red-700 dark:hover:text-lime-500
+}
+
+.darkButton {
+  @apply size-10 mx-1 rounded-full bg-[url('/icons/mode.png')] bg-contain text-transparent dark:rotate-180 transition-all duration-300
+}
+
+.langButtonEng {
+  @apply size-9 mx-1 rounded-full bg-[url('/icons/eng.png')] bg-contain text-transparent
+}
+
+.langButtonEsp {
+  @apply size-9 mx-1 rounded-full bg-[url('/icons/esp.png')] bg-contain text-transparent
+}
+
+.section {
+  @apply h-svh font-sans text-2xl content-center text-center
+}
+
+.containerColor {
+  @apply bg-fixed bg-cover lg:bg-contain text-black dark:text-white bg-[url('/images/day.png')]
+}
+
+.timeNight{
+  animation: timeNight 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes timeNight {
+  0% {
+    background-image: url("/images/day.png");
+  }
+
+  25% {
+    background-image: url("/images/n01.png");
+  }
+
+  50% {
+    background-image: url("/images/n02.png");
+  }
+
+  75% {
+    background-image: url("/images/n03.png");
+  }
+
+  100% {
+    background-image: url("/images/night.png");
+  }
+}
+
+.timeDay{
+  animation: timeDay 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes timeDay {
+  0% {
+    background-image: url("/images/night.png");
+  }
+  
+  25% {
+    background-image: url("/images/d01.png");
+  }
+
+  50% {
+    background-image: url("/images/d02.png");
+  }
+
+  75% {
+    background-image: url("/images/d03.png");
+  }
+
+  100% {
+    background-image: url("/images/day.png");
+  }
+}
