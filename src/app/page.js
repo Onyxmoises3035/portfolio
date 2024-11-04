@@ -18,6 +18,8 @@ const Home = () => {
 
   return (
     <div className="flex content-center justify-center size-full containerColor">
+      <div className="opacity-0 timeNight"></div>
+      <div className="opacity-0 timeDay"></div>
       <Bar lan={lan} change={changeLan}/>
       <div>
         <About_me lan={lan} />
