@@ -6,6 +6,8 @@ import Bar from "@/components/Bar";
 import About_me from "@/components/About_me";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import Education from "@/components/Education";
+import Contact from "@/components/Contact";
 
 const Home = () => {
 
@@ -27,13 +29,13 @@ const Home = () => {
       <div className="opacity-0 bg-[url('/images/d01.png')]"></div>
       <div className="opacity-0 bg-[url('/images/d02.png')]"></div>
       <div className="opacity-0 bg-[url('/images/d03.png')]"></div>
-      <Bar lan={lan} change={changeLan}/>
+      <Bar lan={lan} change={changeLan} />
       <div>
         <About_me lan={lan} />
         <Skills lan={lan} />
         <Projects lan={lan} />
-        <div id="education" className="section">education (cursos, certificados y títulos)</div>
-        <div id="contact" className="section">contact (git, LinkedIn, correo y tal vez WhatsApp)</div>
+        <Education lan={lan} />
+        <Contact lan={lan} />
       </div>
     </div>
   );
