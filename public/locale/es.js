@@ -19,32 +19,44 @@ export default {
             { id: 3, target: '_blank', image: '/icons/linkedin.svg', link: 'https://www.linkedin.com/in/moises-moreno-79b4a028a/' },
         ]
     },
-    skills: {
-        p1: 'Frontend',
-        p2: 'Backend',
-        p3: 'Otros',
-        p4: 'Aprendiendo',
-        skillsFront: [
-            { id: 1, image: '/icons/html.svg', text: 'HTML' },
-            { id: 2, image: '/icons/css.svg', text: 'CSS' },
-            { id: 3, image: '/icons/js.svg', text: 'JavaScript' },
-            { id: 4, image: '/icons/next.svg', text: 'NextJs' },
-            { id: 5, image: '/icons/react.svg', text: 'React' },
-            { id: 6, image: '/icons/tail.svg', text: 'Tailwind' },
-        ],
-        skillsBack: [
-            { id: 1, image: '/icons/python.svg', text: 'Python' },
-            { id: 2, image: '/icons/mysql.svg', text: 'MySQL' },
-            { id: 3, image: '/icons/node.svg', text: 'Node' },
-        ],
-        skillsOther: [
-            { id: 1, image: '/icons/git.svg', text: 'Git' },
-        ],
-        skillsLearn: [
-            { id: 1, image: '/icons/flut.svg', text: 'Flutter' },
-            { id: 2, image: '/icons/ang.svg', text: 'Angular' },
-        ],
-    },
+    skills: [
+        {
+            id: 1,
+            title: 'Frontend',
+            icons: [
+                { id: 1, image: '/icons/html.svg', text: 'HTML' },
+                { id: 2, image: '/icons/css.svg', text: 'CSS' },
+                { id: 3, image: '/icons/js.svg', text: 'JavaScript' },
+                { id: 4, image: '/icons/next.svg', text: 'NextJs' },
+                { id: 5, image: '/icons/react.svg', text: 'React' },
+                { id: 6, image: '/icons/tail.svg', text: 'Tailwind' },
+            ]
+        },
+        {
+            id: 2,
+            title: 'Backend',
+            icons: [
+                { id: 1, image: '/icons/python.svg', text: 'Python' },
+                { id: 2, image: '/icons/mysql.svg', text: 'MySQL' },
+                { id: 3, image: '/icons/node.svg', text: 'Node' },
+            ]
+        },
+        {
+            id: 3,
+            title: 'Otros',
+            icons: [
+                { id: 1, image: '/icons/git.svg', text: 'Git' },
+            ]
+        },
+        {
+            id: 4,
+            title: 'Aprendiendo',
+            icons: [
+                { id: 1, image: '/icons/flut.svg', text: 'Flutter' },
+                { id: 2, image: '/icons/ang.svg', text: 'Angular' },
+            ]
+        },
+    ],
     projects: [
         {
             id: 1,
