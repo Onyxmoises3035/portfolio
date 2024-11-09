@@ -19,5 +19,10 @@ export default {
         p2: 'Backend',
         p3: 'Otros',
         p4: 'Aprendiendo',
+    },
+    projects: {
+        pro1: 'Pokedex, proyecto para la obtención de información de Pokémon utilizando PokeApi',
+        pro2: 'Gabow, mapas interactivos de micro ecosistemas como hospitales, museos, parques, etc.',
+        pro3: 'PetAlert, pagina para ayudar a personas a encontrar sus mascotas perdidas',
     }
 }

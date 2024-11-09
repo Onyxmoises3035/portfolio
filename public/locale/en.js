@@ -19,5 +19,10 @@ export default {
         p2: 'Backend',
         p3: 'Other',
         p4: 'Learning',
+    },
+    projects: {
+        pro1: 'Pokedex, a project to obtain information about Pokémon using PokeApi',
+        pro2: 'Gabow, maps of micro ecosystems such as hospitals, museums, parks, etc.',
+        pro3: 'PetAlert, a website to help people find their lost pets',
     }
 }

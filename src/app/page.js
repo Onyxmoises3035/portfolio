@@ -5,6 +5,7 @@ import en from "@/locale/en";
 import Bar from "@/components/Bar";
 import About_me from "@/components/About_me";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
 
 const Home = () => {
 
@@ -13,8 +14,6 @@ const Home = () => {
   const changeLan = () => {
     setLan((lan === en) ? es : en)
   }
-
-  
 
   return (
     <div className="flex content-center justify-center size-full containerColor">
@@ -32,7 +31,7 @@ const Home = () => {
       <div>
         <About_me lan={lan} />
         <Skills lan={lan} />
-        <div id="projects" className="section">projects (mostrar proyectos con la tecnología echa, explicación de lo que son y una preview)</div>
+        <Projects lan={lan} />
         <div id="education" className="section">education (cursos, certificados y títulos)</div>
         <div id="contact" className="section">contact (git, LinkedIn, correo y tal vez WhatsApp)</div>
       </div>

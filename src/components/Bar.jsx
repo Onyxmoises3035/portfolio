@@ -43,7 +43,7 @@ const Bar = ({ lan, change }) => {
       }
 
     return (
-        <div className="fixed flex flex-row w-full justify-center font-sans">
+        <div className="fixed flex flex-row w-full justify-center font-sans z-50">
             <div className="size-fit m-3 p-3 bg-white dark:bg-black dark:bg-opacity-40 bg-opacity-40 rounded-full shadow-lg">
                 <a id='sec01' href='#about_me' className='navLink sectionLink sectionSelect'>{lan.bar.sec01}</a>
                 <a id='sec02' href='#skills' className='navLink sectionLink'>{lan.bar.sec02}</a>
