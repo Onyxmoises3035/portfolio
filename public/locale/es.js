@@ -63,6 +63,7 @@ export default {
             name: 'Pokedex',
             info: 'Pokedex, proyecto para la obtención de información de Pokémon utilizando PokeApi',
             image: '/images/preview/poke/logo.webp',
+            video: '/images/preview/poke/video.mp4',
             tecs: [
                 { id: 1, image: '/icons/next.svg', text: 'NextJs' },
                 { id: 2, image: '/icons/tail.svg', text: 'Tailwind' },
@@ -79,6 +80,7 @@ export default {
             name: 'Gabow',
             info: 'Gabow, mapas interactivos de micro ecosistemas como hospitales, museos, parques, etc.',
             image: '/images/preview/gabow/logo.png',
+            video: '',
             tecs: [
                 { id: 1, image: '/icons/next.svg', text: 'NextJs' },
                 { id: 2, image: '/icons/tail.svg', text: 'Tailwind' },
@@ -86,8 +88,7 @@ export default {
             ],
             links:
                 [
-                    { id: 1, target: '_blank', image: '/icons/link.svg', link: 'https://poke-nine-chi.vercel.app', },
-                    { id: 2, target: '_blank', image: '/icons/github.svg', link: 'https://github.com/Onyxmoises3035/Poke.git', },
+                    { id: 1, target: '_blank', image: '/icons/link.svg', link: 'https://gabow-eight.vercel.app', },
                 ],
         },
         {
@@ -95,6 +96,7 @@ export default {
             name: 'PetAlert',
             info: 'PetAlert, pagina para ayudar a personas a encontrar sus mascotas perdidas',
             image: '/images/preview/pet/logo.png',
+            video: '',
             tecs: [
                 { id: 1, image: '/icons/next.svg', text: 'NextJs' },
                 { id: 2, image: '/icons/tail.svg', text: 'Tailwind' },
@@ -103,8 +105,8 @@ export default {
             ],
             links:
                 [
-                    { id: 1, target: '_blank', image: '/icons/link.svg', link: 'https://poke-nine-chi.vercel.app', },
-                    { id: 2, target: '_blank', image: '/icons/github.svg', link: 'https://github.com/Onyxmoises3035/Poke.git', },
+                    // { id: 1, target: '_blank', image: '/icons/link.svg', link: '', },
+                    // { id: 2, target: '_blank', image: '/icons/github.svg', link: '', },
                 ],
         },
     ],

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import IconsC from "./IconsC";
 
-const CardP = ({ id, name, image, links, tecs, info }) => {
+const CardP = ({ id, name, image, video, links, tecs, info }) => {
 
     useEffect(() => {
         const cont = document.getElementById(`cont${id}`);
@@ -23,10 +23,8 @@ const CardP = ({ id, name, image, links, tecs, info }) => {
         bg-white bg-opacity-40 rounded-lg
         dark:bg-black dark:bg-opacity-40
         ">
-            <a href='' target="_blank">
-                <Image className="group-hover:hidden" src={image} height={300} width={300} alt={name} />
-                <video id={`vid${id}`} className="hidden group-hover:block" loop muted src="/images/preview/pet/video.mp4"></video>
-            </a>
+            <Image className="group-hover:hidden" src={image} height={300} width={300} alt={name} />
+            <video id={`vid${id}`} className="hidden group-hover:block" loop muted src={video}></video>
             <h1 className="text-sm my-1 mx-3 text-justify">{info}</h1>
             <div className="flex flex-row h-fit mt-2 w-full justify-center content-center">
                 {tecs.map(tec => (
