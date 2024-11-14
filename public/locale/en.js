@@ -80,7 +80,7 @@ export default {
             name: 'Gabow',
             info: 'Gabow, maps of micro ecosystems such as hospitals, museums, parks, etc.',
             image: '/images/preview/gabow/logo.png',
-            video: '',
+            video: '/images/preview/gabow/video.mp4',
             tecs: [
                 { id: 1, image: '/icons/next.svg', text: 'NextJs' },
                 { id: 2, image: '/icons/tail.svg', text: 'Tailwind' },
@@ -96,7 +96,7 @@ export default {
             name: 'PetAlert',
             info: 'PetAlert, a website to help people find their lost pets',
             image: '/images/preview/pet/logo.png',
-            video: '',
+            video: '/images/preview/pet/video.mp4',
             tecs: [
                 { id: 1, image: '/icons/next.svg', text: 'NextJs' },
                 { id: 2, image: '/icons/tail.svg', text: 'Tailwind' },
