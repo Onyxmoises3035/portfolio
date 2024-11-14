@@ -105,8 +105,8 @@ export default {
             ],
             links:
                 [
-                    // { id: 1, target: '_blank', image: '/icons/link.svg', link: '', },
-                    // { id: 2, target: '_blank', image: '/icons/github.svg', link: '', },
+                    { id: 1, target: '_blank', image: '/icons/link.svg', link: 'https://pet-alert.vercel.app', },
+                    { id: 2, target: '_blank', image: '/icons/github.svg', link: 'https://github.com/Onyxmoises3035/PetAlert.git', },
                 ],
         },
     ],
