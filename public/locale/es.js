@@ -94,7 +94,7 @@ export default {
         {
             id: 3,
             name: 'PetAlert',
-            info: 'PetAlert, pagina para ayudar a personas a encontrar sus mascotas perdidas',
+            info: 'PetAlert, pagina para ayudar a personas a encontrar sus mascotas perdidas con ayuda de IA',
             image: '/images/preview/pet/logo.png',
             video: '/images/preview/pet/video.mp4',
             tecs: [
